@@ -1,0 +1,17 @@
+Consider the IMAGE attached. Given the CHARACTERISTICS below and the QUESTION, evaluate whether the IMAGE complies with each of the following LIST_OF_CONDITIONS.
+
+CHARACTERISTICS: {{ characteristics }}
+
+QUESTION: {{ question }}
+
+LIST_OF_CONDITIONS:
+{% for prop in properties %}
+- {{ prop.name }}: {{ prop.definition }}
+{% endfor %}
+
+For each condition, respond in JSON format as a list of objects, each with these exact keys:
+- "property": the property name
+- "passed": true or false
+- "reasoning": a brief explanation if passed is false, otherwise an empty string
+
+Respond with ONLY the JSON, no other text.

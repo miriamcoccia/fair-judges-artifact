@@ -1,0 +1,236 @@
+{
+  "total_results": 68868,
+  "detection_by_strategy_severity": {
+    "('combined', 'moderate')": {
+      "precision": 0.38447309867839047,
+      "recall": 0.7393164596113202,
+      "f1": 0.5058728087192692
+    },
+    "('combined', 'subtle')": {
+      "precision": 0.3170533170533171,
+      "recall": 0.5449758827644612,
+      "f1": 0.40088296633352294
+    },
+    "('combined', 'obvious')": {
+      "precision": 0.3505414691427826,
+      "recall": 0.8309278350515464,
+      "f1": 0.4930719114183464
+    },
+    "('split', 'obvious')": {
+      "precision": 1.0,
+      "recall": 0.8443298969072165,
+      "f1": 0.9155953046394634
+    },
+    "('split', 'moderate')": {
+      "precision": 1.0,
+      "recall": 0.7360824742268042,
+      "f1": 0.8479809976247031
+    },
+    "('split', 'subtle')": {
+      "precision": 1.0,
+      "recall": 0.6896907216494845,
+      "f1": 0.8163514338010982
+    }
+  },
+  "detection_by_strategy_property": {
+    "('combined', 'technical_quality')": {
+      "precision": 0.3584231925048612,
+      "recall": 0.8709621993127148,
+      "f1": 0.5078522229179713
+    },
+    "('combined', 'standard_presentation')": {
+      "precision": 0.4642756878158338,
+      "recall": 0.5683477962024229,
+      "f1": 0.5110673310928265
+    },
+    "('combined', 'functional_relevance')": {
+      "precision": 0.35540808647465283,
+      "recall": 0.8926116838487973,
+      "f1": 0.5083916426089935
+    },
+    "('combined', 'text_image_coherence')": {
+      "precision": 0.3499114368075574,
+      "recall": 0.8655498281786942,
+      "f1": 0.4983553038359756
+    },
+    "('split', 'visual_clarity')": {
+      "precision": 1.0,
+      "recall": 0.6752577319587629,
+      "f1": 0.8061538461538462
+    },
+    "('combined', 'fair_representation_control')": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "('combined', 'fair_representation')": {
+      "precision": 0.06872984180617417,
+      "recall": 0.23067010309278352,
+      "f1": 0.10590462667139983
+    },
+    "('combined', 'visual_clarity')": {
+      "precision": 0.47257105089226703,
+      "recall": 0.6142611683848798,
+      "f1": 0.5341800522973477
+    },
+    "('split', 'standard_presentation')": {
+      "precision": 1.0,
+      "recall": 0.5395189003436426,
+      "f1": 0.7008928571428572
+    },
+    "('split', 'text_image_coherence')": {
+      "precision": 1.0,
+      "recall": 0.8470790378006873,
+      "f1": 0.9172093023255813
+    },
+    "('split', 'technical_quality')": {
+      "precision": 1.0,
+      "recall": 0.8264604810996563,
+      "f1": 0.9049858889934148
+    },
+    "('split', 'functional_relevance')": {
+      "precision": 1.0,
+      "recall": 0.8951890034364262,
+      "f1": 0.9446962828649139
+    }
+  },
+  "detection_by_model_severity": {
+    "('gpt5.6-luna', 'moderate')": {
+      "precision": 0.40535141670609265,
+      "recall": 0.722680412371134,
+      "f1": 0.5193816724480517
+    },
+    "('gpt5.6-terra', 'subtle')": {
+      "precision": 0.3248053392658509,
+      "recall": 0.5590986081449296,
+      "f1": 0.4109003328552485
+    },
+    "('gpt5.6-luna', 'subtle')": {
+      "precision": 0.32855117190758193,
+      "recall": 0.5414432989690722,
+      "f1": 0.40894933554817275
+    },
+    "('gpt5.6-luna', 'obvious')": {
+      "precision": 0.37040472175379424,
+      "recall": 0.8234301780693534,
+      "f1": 0.5109624890956673
+    },
+    "('gpt5.6-terra', 'obvious')": {
+      "precision": 0.3531730560970327,
+      "recall": 0.8405154639175257,
+      "f1": 0.4973615982919018
+    },
+    "('gpt5.6-terra', 'moderate')": {
+      "precision": 0.38670106349373484,
+      "recall": 0.7572945664501495,
+      "f1": 0.5119715610079113
+    }
+  },
+  "detection_by_model_property": {
+    "('gpt5.6-luna', 'technical_quality')": {
+      "precision": 0.3877120087187521,
+      "recall": 0.8890971571383942,
+      "f1": 0.5399611061044443
+    },
+    "('gpt5.6-terra', 'standard_presentation')": {
+      "precision": 0.48518419647624134,
+      "recall": 0.6246777796872315,
+      "f1": 0.5461648260836902
+    },
+    "('gpt5.6-luna', 'functional_relevance')": {
+      "precision": 0.376728565784275,
+      "recall": 0.8936269915651359,
+      "f1": 0.5300166759310728
+    },
+    "('gpt5.6-terra', 'text_image_coherence')": {
+      "precision": 0.35781282567914957,
+      "recall": 0.8848797250859106,
+      "f1": 0.5095730470489289
+    },
+    "('gpt5.6-luna', 'visual_clarity')": {
+      "precision": 0.5082932049224184,
+      "recall": 0.5935645110902843,
+      "f1": 0.5476293414036604
+    },
+    "('gpt5.6-terra', 'functional_relevance')": {
+      "precision": 0.35623584322877344,
+      "recall": 0.8917525773195877,
+      "f1": 0.5090980430624357
+    },
+    "('gpt5.6-terra', 'technical_quality')": {
+      "precision": 0.3498047568335108,
+      "recall": 0.8465635738831615,
+      "f1": 0.4950514945993469
+    },
+    "('gpt5.6-terra', 'fair_representation_control')": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "('gpt5.6-luna', 'fair_representation')": {
+      "precision": 0.06662718389102754,
+      "recall": 0.23195876288659795,
+      "f1": 0.10351966873706003
+    },
+    "('gpt5.6-luna', 'fair_representation_control')": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "('gpt5.6-luna', 'standard_presentation')": {
+      "precision": 0.4659123055162659,
+      "recall": 0.514526710402999,
+      "f1": 0.4890142517814727
+    },
+    "('gpt5.6-terra', 'visual_clarity')": {
+      "precision": 0.46514228905182053,
+      "recall": 0.6431271477663231,
+      "f1": 0.5398427922405711
+    },
+    "('gpt5.6-luna', 'text_image_coherence')": {
+      "precision": 0.36379507151010543,
+      "recall": 0.8462980318650422,
+      "f1": 0.5088518431556703
+    },
+    "('gpt5.6-terra', 'fair_representation')": {
+      "precision": 0.0709955328653478,
+      "recall": 0.22938144329896906,
+      "f1": 0.1084307992202729
+    }
+  },
+  "cost_by_strategy": {
+    "combined": 216.60754159999902,
+    "split": 0.726720800000001
+  },
+  "cost_by_model": {
+    "gpt5.6-luna": 22.270088399999924,
+    "gpt5.6-terra": 195.0641740000001
+  },
+  "mcnemar_test": {
+    "b": 163,
+    "c": 116,
+    "n_pairs": 2910,
+    "statistic": 7.584229390681004,
+    "p_value": 0.005888112900423504
+  },
+  "bootstrap_recall_ci": {
+    "split": {
+      "point_estimate": 0.756701030927835,
+      "lower": 0.7422680412371134,
+      "upper": 0.772852233676976,
+      "confidence": 0.95
+    },
+    "combined": {
+      "point_estimate": 0.7405498281786942,
+      "lower": 0.7243986254295532,
+      "upper": 0.7556701030927835,
+      "confidence": 0.95
+    }
+  },
+  "fair_representation_validation": {
+    "mutated_n": 3880,
+    "mutated_flag_rate": 0.23067010309278352,
+    "control_n": 3879,
+    "control_false_positive_rate": 0.0
+  }
+}

@@ -1,0 +1,25 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+.env
+
+# Data
+data/
+runs/
+.DS_Store
+
+# scratch files
+scratch.py
+mlflow.db
+codebase_dump.txt
+phase4_control_log.txt
+phase3_fair_representation_log.txt
+masterplan.md
+dump_codebase.py
