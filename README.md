@@ -1,5 +1,7 @@
 # MLLM: Multimodal Damage Detection Validators
 
+Paper linked to the project: `mllm_judges_education.pdf`
+
 Tests whether vision-language models (VLMs) can detect deliberately-injected
 damage in image-based educational questions (ScienceQA). Damage is injected
 programmatically (blur, rotation, clutter, and substitution mutations) at
